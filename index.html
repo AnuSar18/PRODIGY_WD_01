@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-container">
+        <div class="image-box">
+            <img src="img/image1.png" alt="Image 1">
+        </div>
+        <div class="image-box">
+            <img src="img/image2.png" alt="Image 2">
+        </div>
+        <div class="image-box">
+            <img src="img/image3.jpeg" alt="Image 3">
+        </div>
+        <div class="image-box">
+            <img src="img/image4.jpeg" alt="Image 4">
+        </div>
+        <div class="image-box">
+            <img src="img/image5.jpeg" alt="Image 5">
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="box">
+            <div class="home-container">
+                <div class="home-content">
+                    <h1>Welcome to Our BagStore!</h1>
+                    <p>From Gucci to Prada,<br> Chanel to Bourgeois and Versace,<br> all handy bags are displayed here.</p>
+                    <a href="#services" class="btn">Shop Now</a>
+                </div>
+                <div class="home-image">
+                    <img src="img/image6.png" alt="Large Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="box">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="img/image9.jpg" alt="About Us Image">
+                </div>
+                <div class="about-content">
+                    <h1>About Us</h1>
+                    <p>At BagStore, we are passionate about providing you with the finest collection of luxury bags. Our mission is to bring you the latest designs and timeless classics from top fashion houses around the world. We believe that a bag is not just an accessory, but a statement of style and personality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="box">
+            <div class="services-container">
+                <div class="services-content">
+                    <h1>Our Services</h1>
+                    <p>We offer a range of services to enhance your shopping experience:</p>
+                    <ul>
+                        <li>Exclusive Collections: Discover limited edition and exclusive bags that you won't find anywhere else.</li>
+                        <li>Personal Shopping: Get personalized shopping recommendation to find the perfect bag for any occasion.</li>
+                        <li>Gift Wrapping: Make your purchase extra special with our premium gift wrapping service.</li>
+                        <li>Worldwide Shipping: Enjoy fast and reliable shipping to anywhere in the world.</li>
+                    </ul>
+                </div>
+                <div class="services-image">
+                    <img src="img/image8.jpg" alt="Services Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="box">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you! Whether you have a question about our products or need assistance, feel free to reach out to us.</p>
+                <div class="contact-info">
+                    <a href="tel:0123456789"><i class="fas fa-phone"></i> 0123456789</a>
+                    <a href="mailto:asarkartechit@gmail.com"><i class="fas fa-envelope"></i> asarkartechit@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rating">
+        <div class="box">
+            <div class="rating-container">
+                <h1>Rate Us</h1>
+                <div class="rating">
+                    <span class="fa fa-star" id="star1" onclick="rate(1)"></span>
+                    <span class="fa fa-star" id="star2" onclick="rate(2)"></span>
+                    <span class="fa fa-star" id="star3" onclick="rate(3)"></span>
+                    <span class="fa fa-star" id="star4" onclick="rate(4)"></span>
+                    <span class="fa fa-star" id="star5" onclick="rate(5)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BagStore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
